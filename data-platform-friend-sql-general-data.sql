@@ -4,6 +4,7 @@ CREATE TABLE `data_platform_friend_general_data`
   `Friend`                          int(12) NOT NULL,
   `BPBusinessPartnerType`           varchar(2) NOT NULL,
   `FriendBusinessPartnerType`       varchar(2) NOT NULL,
+  `CommunityRank`                   int(2) NOT NULL,
   `FriendIsBlocked`                 tinyint(1) NOT NULL,
   `CreationDate`                    date NOT NULL,
   `CreationTime`                    time NOT NULL,
